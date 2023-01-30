@@ -1,4 +1,4 @@
-import 'package:dw9_delivery_app/pages/splash/splash_Page.dart';
+import 'package:dw9_delivery_app/app/splash/splash_Page.dart';
 import 'package:flutter/material.dart';
 
 class Dw9DelivaryApp extends StatelessWidget {
