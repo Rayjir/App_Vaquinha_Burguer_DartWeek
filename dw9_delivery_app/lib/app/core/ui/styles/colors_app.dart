@@ -12,5 +12,9 @@ class ColorsApp {
 
   Color get primary => const Color(0xff007D21);
   Color get secondary => const Color(0xffF88B0C);
+}
+
+extension ColorsAppExtentions on BuildContext {
+  ColorsApp get colors => ColorsApp.i;
 
 }

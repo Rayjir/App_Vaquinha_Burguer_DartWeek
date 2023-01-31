@@ -9,6 +9,7 @@ class Dw9DelivaryApp extends StatelessWidget {
    Widget build(BuildContext context) {
        return MaterialApp(
         title: 'Delivery App',
+        theme: ThemeData(scaffoldBackgroundColor: Colors.blue),
         routes: {
           '/' : (context) => const SplashPage(),
         }, 
