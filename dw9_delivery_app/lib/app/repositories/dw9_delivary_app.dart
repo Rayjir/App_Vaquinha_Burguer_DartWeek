@@ -1,3 +1,4 @@
+import 'package:dw9_delivery_app/app/core/theme/theme_config.dart';
 import 'package:dw9_delivery_app/app/splash/splash_Page.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class Dw9DelivaryApp extends StatelessWidget {
    Widget build(BuildContext context) {
        return MaterialApp(
         title: 'Delivery App',
-        theme: ThemeData(scaffoldBackgroundColor: Colors.blue),
+        theme: ThemeConfig.theme,
         routes: {
           '/' : (context) => const SplashPage(),
         }, 
