@@ -1,4 +1,4 @@
-import 'package:dw9_delivery_app/app/core/theme/theme_config.dart';
+import 'package:dw9_delivery_app/app/core/ui/theme/theme_config.dart';
 import 'package:dw9_delivery_app/app/splash/splash_Page.dart';
 import 'package:flutter/material.dart';
 
