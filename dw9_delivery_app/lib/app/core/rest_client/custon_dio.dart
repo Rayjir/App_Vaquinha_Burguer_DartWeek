@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:dio/native_imp.dart';
-import 'package:dw9_delivery_app/app/core/env/env.dart';
+import 'package:dw9_delivery_app/app/core/config/env.dart';
 
 class CustonDio extends DioForNative {
   CustonDio()
