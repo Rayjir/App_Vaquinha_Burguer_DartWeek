@@ -21,7 +21,7 @@ class ProductsRepositoryImpl implements ProductsRepository {
           .map<ProductModel>(
             (p) => ProductModel.fromMap(p),
           )
-          .tolist();
+          .toList();
     } on DioError catch (e, s) {
       log('Erro ao buscar produtos', error: e, stackTrace: s);
       throw RepositoryExeptions(message: 'Erro ao buscar produtos');

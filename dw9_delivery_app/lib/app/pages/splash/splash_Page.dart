@@ -1,3 +1,6 @@
+// ignore_for_file: file_names
+
+import 'package:dw9_delivery_app/app/core/config/env/env.dart';
 import 'package:dw9_delivery_app/app/core/ui/helpers/size_extensions.dart';
 import 'package:dw9_delivery_app/app/core/ui/widgets/delivery_button.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +32,7 @@ class SplashPage extends StatelessWidget {
               const SizedBox(
                 height: 80,
               ),
+              Text(Env.i['backend_base_url'] ?? ' ', style: const TextStyle(color: Colors.white)),
               DeliveryButton(
                   width: context.percentwidth(.6),
                   height: 35,
