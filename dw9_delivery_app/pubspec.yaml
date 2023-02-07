@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: ">=2.18.2 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -44,6 +44,7 @@ dependencies:
   flutter_bloc: ^8.1.1
   equatable: ^2.0.5
   match: ^0.4.1
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -63,7 +64,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -71,8 +71,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets/images/
-   - .env
+    - assets/images/
+    - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -86,18 +86,18 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-        - family: mplus1
-          fonts:
-          - asset: assets\fonts\mplus1\MPLUS1p-Light.ttf
-            weight: 300
-          - asset: assets\fonts\mplus1\MPLUS1p-Regular.ttf
-            style: normal
-          - asset: assets\fonts\mplus1\MPLUS1p-Medium.ttf
-            weight: 500
-          - asset: assets\fonts\mplus1\MPLUS1p-Bold.ttf
-            weight: 700
-          - asset: assets\fonts\mplus1\MPLUS1p-ExtraBold.ttf
-            weight: 800
+    - family: mplus1
+      fonts:
+        - asset: assets\fonts\mplus1\MPLUS1p-Light.ttf
+          weight: 300
+        - asset: assets\fonts\mplus1\MPLUS1p-Regular.ttf
+          style: normal
+        - asset: assets\fonts\mplus1\MPLUS1p-Medium.ttf
+          weight: 500
+        - asset: assets\fonts\mplus1\MPLUS1p-Bold.ttf
+          weight: 700
+        - asset: assets\fonts\mplus1\MPLUS1p-ExtraBold.ttf
+          weight: 800
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

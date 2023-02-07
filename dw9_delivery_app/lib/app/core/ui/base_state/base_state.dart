@@ -11,7 +11,7 @@ abstract class BaseState<T extends StatefulWidget, C extends BlocBase>
   void initState() {
     super.initState();
     controller = context.read<C>();
-    WidgetsBinding.instance.addPersistentFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       onReady();
     });
   }
