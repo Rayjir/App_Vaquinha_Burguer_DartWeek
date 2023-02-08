@@ -1,4 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:dw9_delivery_app/app/dto/order_product_dto.dart';
 import 'package:dw9_delivery_app/app/models/product_model.dart';
 import 'package:equatable/equatable.dart';
 import 'package:match/match.dart';
@@ -17,10 +18,12 @@ class HomeState extends Equatable {
   final HomeStateStatus status;
   final List<ProductModel> products;
   final String? errorMessage;
+  final List<OrderProductDto> shoppingBag;
 
-   const HomeState({
+  const HomeState({
     required this.status,
     required this.products,
+    required this.shoppingBag,
     this.errorMessage,
   });
 
