@@ -30,7 +30,9 @@ class HomeState extends Equatable {
   const HomeState.initial()
       : status = HomeStateStatus.initial,
         products = const [],
-        errorMessage = null;
+        errorMessage = null,
+        shoppingBag = const [];
+
   @override
   List<Object?> get props => [status, products, errorMessage];
 
@@ -38,11 +40,13 @@ class HomeState extends Equatable {
     HomeStateStatus? status,
     List<ProductModel>? products,
     String? errorMessage,
+    List<OrderProduct>
   }) {
     return HomeState(
       status: status ?? this.status,
       products: products ?? this.products,
       errorMessage: errorMessage ?? this.errorMessage,
+      shoppingBag: shoppingBag ?? this.shoppingBag,
     );
   }
 }
