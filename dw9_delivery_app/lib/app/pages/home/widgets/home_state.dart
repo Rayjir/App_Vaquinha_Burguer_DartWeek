@@ -40,7 +40,7 @@ class HomeState extends Equatable {
     HomeStateStatus? status,
     List<ProductModel>? products,
     String? errorMessage,
-    List<OrderProduct>
+    // List<OrderProduct>
   }) {
     return HomeState(
       status: status ?? this.status,
